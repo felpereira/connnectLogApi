@@ -1,9 +1,12 @@
 {
   "name": "logsender",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "main": "index.js",
   "author": "cb.felipe",
   "license": "MIT",
+  "scripts": {
+    "build": "tsup src/index.ts"
+  },
   "devDependencies": {
     "@types/react": "^18.2.55",
     "tsup": "^8.0.1",
